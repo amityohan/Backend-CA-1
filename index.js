@@ -8,6 +8,9 @@ const passwordRegex=/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#%&]){8,}$/
 
 app.use(express.json());
 
+app.get('/',(res,req)=>{
+    console.log('Hello World');
+})
 
 app.post('/signup',(res,req)=>{
     // const {username,email,password,dateOfBirth}=req.body;

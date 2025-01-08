@@ -1,6 +1,11 @@
 # Backend CA-1
 
+Render deployment link: https://backend-ca-1-33dc.onrender.com
 
+
+
+
+<!-- 
 What i need to finish:
     - create endpoints for a user sign up page
         - endpoint accepts: 
@@ -16,4 +21,4 @@ What i need to finish:
     -validate the above points using regex or if-else.
 
 
-    endpoints: /signup
+    endpoints: /signup -->
